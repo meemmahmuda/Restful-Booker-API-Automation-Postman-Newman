@@ -59,10 +59,7 @@ npm install -g newman newman-reporter-htmlextra
 ## How to Run
 
 ```bash
-newman run collection/My_Collection.postman_collection.json \
-  -e environment/Automate_Environment.postman_environment.json \
-  -r htmlextra \
-  --reporter-htmlextra-export reports/report.html
+newman run My_Collection.postman_collection.json -e Automate_Environment.postman_environment.json -r cli,htmlextra
 ```
 
 Then open `reports/report.html` in your browser.
