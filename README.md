@@ -104,7 +104,7 @@ Latest run: **22 October 2026**
 | CreateToken	| Response time below 500ms	| Got 733 ms |
 | UpdateBooking	| Response time below 500ms |	Got 684 ms |
 
-These failures come from test expectations that differ from the API's actual behavior (the public demo API returns `200` for these endpoints, and the booking list is large and slow on a free Heroku host). Updating the assertions, or the thresholds, will resolve them.
+Analysis: Most failures are performance thresholds (the public Heroku-hosted API is slow) plus two status-code expectations. The API actually returns 200 for POST /booking and POST /auth, so those assertions should be updated to expect 200. The response-size limit for GetBookingIds should be raised or removed, since the endpoint returns all booking IDs.
 
 ## Report
 
