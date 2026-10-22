@@ -18,11 +18,11 @@ Automated API test suite for the [Restful-Booker](https://restful-booker.herokua
 |---|---------|--------|----------|---------|
 | 1 | GetBookingIds | GET | `/booking` | List all booking IDs |
 | 2 | CreateBooking | POST | `/booking` | Create a new booking |
-| 3 | GetBooking | GET | `/booking/:id` | Fetch a single booking |
+| 3 | GetBooking | GET | `/booking/id` | Fetch a single booking |
 | 4 | CreateToken | POST | `/auth` | Generate an auth token |
-| 5 | UpdateBooking | PUT | `/booking/:id` | Full update of a booking |
-| 6 | PartialUpdateBooking | PATCH | `/booking/:id` | Partial update of a booking |
-| 7 | DeleteBooking | DELETE | `/booking/:id` | Delete a booking |
+| 5 | UpdateBooking | PUT | `/booking/id` | Full update of a booking |
+| 6 | PartialUpdateBooking | PATCH | `/booking/id` | Partial update of a booking |
+| 7 | DeleteBooking | DELETE | `/booking/id` | Delete a booking |
 | 8 | HealthCheck | GET | `/ping` | API health check |
 
 ## What the Tests Validate
