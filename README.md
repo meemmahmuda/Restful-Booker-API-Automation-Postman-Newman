@@ -66,18 +66,18 @@ Then open `newman/My_Collection-2026-10-22-08-58-56-462-0.html` in your browser.
 
 ## Sample Report Summary
 
-Latest run: **20 October 2026**
+Latest run: **22 October 2026**
 
 | Metric | Result |
 |--------|--------|
 | Iterations | 1 |
 | Total requests | 8 (0 failed) |
-| Total assertions | 61 |
-| Failed assertions | 4 |
+| Total assertions | 65 |
+| Failed assertions | 7 |
 | Skipped tests | 0 |
-| Total run duration | 3.7s |
-| Average response time | 373ms |
-| Total data received | 19.95KB |
+| Total run duration | 8.6s |
+| Average response time | 955ms |
+| Total data received | 53.095KB |
 
 ### Pass rate per request
 
