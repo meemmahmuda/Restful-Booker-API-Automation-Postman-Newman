@@ -77,7 +77,7 @@ Latest run: **22 October 2026**
 | Skipped tests | 0 |
 | Total run duration | 8.6s |
 | Average response time | 955ms |
-| Total data received | 53.095KB |
+| Total data received | 53.09KB |
 
 ### Pass rate per request
 
