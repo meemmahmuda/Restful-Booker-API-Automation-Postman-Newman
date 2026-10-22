@@ -48,16 +48,13 @@ npm install -g newman newman-reporter-htmlextra
 
 ```
 .
-├── collection/
-│   └── My_Collection.postman_collection.json
-├── environment/
-│   └── Automate_Environment.postman_environment.json
-├── reports/
-│   └── My_Collection-2026-10-20-17-13-56-194-0.html
-└── README.md
+│    My_Collection.postman_collection.json
+│    Automate_Environment.postman_environment.json
+├    newman/
+│    └── My_Collection-2026-10-22-08-58-56-462-0.html
+└──  README.md
 ```
 
-> Adjust the file names/paths above to match your repository.
 
 ## How to Run
 
