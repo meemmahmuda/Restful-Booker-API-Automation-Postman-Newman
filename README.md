@@ -30,7 +30,7 @@ Automated API test suite for the [Restful-Booker](https://restful-booker.herokua
 - HTTP status codes
 - Response time and response size thresholds
 - JSON response format
-- Data types (e.g. first name is a string, total price is a number, deposit paid is a boolean)
+- Data types (first name is a string, total price is a number, deposit paid is a boolean)
 - Response values match the values stored in the environment (first name, last name, total price, dates, additional needs)
 - Auth token is returned correctly
 - Delete confirmation message
