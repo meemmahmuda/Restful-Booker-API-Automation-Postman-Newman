@@ -109,7 +109,7 @@ Analysis: Most failures are performance thresholds (the public Heroku-hosted API
 ## Report
 
 The full interactive HTML report (request/response headers, bodies, and per-test results) is available in the 
-📥 [**Download Newman HTML Report**](./newmanl) folder. Download it and open it locally in a browser to view it.
+ [**Download Newman HTML Report**](./newman) folder. Download it and open it locally in a browser to view it.
 
 ## Tech Stack
 
