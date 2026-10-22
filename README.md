@@ -108,7 +108,7 @@ Analysis: Most failures are performance thresholds (the public Heroku-hosted API
 
 ## Report
 
-The full interactive HTML report (request/response headers, bodies, and per-test results) is available in the (My_Collection-2026-10-22-08-58-56-462-0.html) file. Download it and open it locally in a browser to view it.
+The full interactive HTML report (request/response headers, bodies, and per-test results) is available in the (./My_Collection-2026-10-22-08-58-56-462-0.html) file. Download it and open it locally in a browser to view it.
 
 ## Tech Stack
 
