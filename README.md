@@ -90,7 +90,7 @@ Latest run: **22 October 2026**
 | UpdateBooking | 100% |
 | PartialUpdateBooking | 100% |
 | DeleteBooking | 100% |
-| HealthCheck | No tests |
+| HealthCheck | 100% |
 
 ### Known Failures
 
