@@ -96,10 +96,12 @@ Latest run: **22 October 2026**
 
 | Request | Failed test | Reason |
 |---------|-------------|--------|
-| GetBookingIds | Response time below 500ms | Got 967ms |
-| GetBookingIds | Response size below 1000B | Got 19660B (the endpoint returns all booking IDs) |
+| GetBookingIds | Response time below 500ms | Got 3962 ms |
+| GetBookingIds | Response size below 1000B | Got 53611 B |
 | CreateBooking | Status code is 201 | API returned `200` |
+| GetBooking	  | Response time below 500ms	| Got 620 ms
 | CreateToken | Status code is 201 | API returned `200` |
+| UpdateBooking	| Response time below 500ms |	Got 684 ms |
 
 These failures come from test expectations that differ from the API's actual behavior (the public demo API returns `200` for these endpoints, and the booking list is large and slow on a free Heroku host). Updating the assertions, or the thresholds, will resolve them.
 
