@@ -62,7 +62,7 @@ npm install -g newman newman-reporter-htmlextra
 newman run My_Collection.postman_collection.json -e Automate_Environment.postman_environment.json -r cli,htmlextra
 ```
 
-Then open `reports/report.html` in your browser.
+Then open `newman/My_Collection-2026-10-22-08-58-56-462-0.html` in your browser.
 
 ## Sample Report Summary
 
