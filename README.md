@@ -64,6 +64,12 @@ newman run My_Collection.postman_collection.json -e Automate_Environment.postman
 
 Then open `newman/My_Collection-2026-10-22-08-58-56-462-0.html` in your browser.
 
+
+📊 Newman Test Reports
+
+API tests are executed with Newman (Postman CLI) and the HTML reports are generated using the htmlextra reporter.
+
+
 ## Sample Report Summary
 
 Latest run: **22 October 2026**
